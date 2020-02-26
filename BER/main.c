@@ -16,6 +16,11 @@ struct berResult
 
 static FILE *pLogFile = NULL;
 
+/*
+	Running without arguments creates and modifies for calculating
+	To find errors in two same length files, run in terminal: 
+	./BER file1.bin file2.bin 
+*/
 
 int main(int argc, char *argv[]) {
 
